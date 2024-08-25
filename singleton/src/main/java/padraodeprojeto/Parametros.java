@@ -9,22 +9,22 @@ public class Parametros {
         return instance;
     }
 
-    private String nomeEscola;
-    private String usuarioLogado;
+    private String assistenteRequisicao;
+    private String funcionarioLogado;
 
-    public String getNomeEscola() {
-        return nomeEscola;
+    public String getAssistenteRequisicao() {
+        return assistenteRequisicao;
     }
 
-    public void setNomeEscola(String nomeEscola) {
-        this.nomeEscola = nomeEscola;
+    public void setAssistenteRequisicao(String assistenteRequisicao) {
+        this.assistenteRequisicao = assistenteRequisicao;
     }
 
-    public String getUsuarioLogado() {
-        return usuarioLogado;
+    public String getFuncionarioLogado() {
+        return funcionarioLogado;
     }
 
-    public void setUsuarioLogado(String usuarioLogado) {
-        this.usuarioLogado = usuarioLogado;
+    public void setFuncionarioLogado(String funcionarioLogado) {
+        this.funcionarioLogado = funcionarioLogado;
     }
 }

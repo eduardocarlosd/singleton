@@ -7,15 +7,15 @@ import static org.junit.jupiter.api.Assertions.*;
 class ParametrosTest {
 
     @Test
-    public void deveRetornarNomeEscola() {
-        Parametros.getInstance().setNomeEscola("Escola 1");
-        assertEquals("Escola 1", Parametros.getInstance().getNomeEscola());
+    public void deveRetornarAssistenteRequisicao() {
+        Parametros.getInstance().setAssistenteRequisicao("Assistente 1");
+        assertEquals("Assistente 1", Parametros.getInstance().getAssistenteRequisicao());
     }
 
     @Test
-    public void deveRetornarUsuarioLogado() {
-        Parametros.getInstance().setUsuarioLogado("Usuario 1");
-        assertEquals("Usuario 1", Parametros.getInstance().getUsuarioLogado());
+    public void deveRetornarFuncionarioLogado() {
+        Parametros.getInstance().setFuncionarioLogado("Funcionario 1");
+        assertEquals("Funcionario 1", Parametros.getInstance().getFuncionarioLogado());
     }
 
 }
